@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  
+  <!--font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+  <!--font end-->
+
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main>
+    <section class="wrapper">
+      <section class="top-bar">
+        <h1 class="header">Notifications</h1> 
+        <span class="amnt-notis">3</span>
+        <button class="mark-as-read">Mark all as read</button>  
+      </section>
+      <section class="feed">
+        <div class="banner unread">
+          <img src="avatar-mark-webber.webp" alt="">
+          <div class="banner-content-wrapper">
+            <div class="banner-content"><strong>Mark Webber</strong>&nbsp&nbsp reacted to your recent post My first tournament today!<span class="dot">r</span></div>
+            <div class="banner-time">1m ago</div>
+          </div>
+        </div>
+        <div class="banner unread">
+          <img src="avatar-angela-gray.webp" alt="">
+          <div class="banner-content-wrapper">
+            <div class="banner-content"><strong>Angela Gray</strong>&nbsp&nbsp followed you<span class="dot">r</span></div>
+            <div class="banner-time">5m ago</div>
+          </div>
+        </div>
+        <div class="banner unread">
+          <img src="avatar-jacob-thompson.webp" alt="">
+          <div class="banner-content-wrapper">
+            <div class="banner-content"><strong>Jacob Thompson</strong>&nbsp&nbsp has joined your group <span class="chess">Chess Club</span><span class="dot">r</span></div>
+            <div class="banner-time">1 day ago</div>
+          </div>
+        </div>
+        <div class="banner" id="private-message">
+          <img src="avatar-rizky-hasanuddin.webp" alt="" class="priv-pic">
+          <div class="banner-content-wrapper">
+            <div class="banner-content"><strong>Rizky Hasanuddin</strong>&nbsp&nbsp sent you a private message</div>
+            <div class="banner-time">5 days ago</div>
+            <div class="private-message-wrapper">
+              <span class="private-message">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+                I'm already having lots of fun and improving my game.</span>
+            </div>
+            </div>
+          </div>
+        <div class="banner chess-banner">
+          <img src="avatar-kimberly-smith.webp" alt="">
+          <div class="banner-content-wrapper">
+            <div class="banner-content"><strong>Kimberly Smith</strong>&nbsp&nbsp commented on your picture <img class ="chess-photo" src="image-chess.webp" alt="chess game"></div>
+            <div class="banner-time">1 week ago</div>
+          </div>
+        </div>
+        <div class="banner">
+          <img src="avatar-nathan-peterson.webp" alt="">
+          <div class="banner-content-wrapper">
+            <div class="banner-content"><strong>Nathan Peterson</strong>&nbsp&nbsp reacted to your recent post 5 end-game strategies to increase your win rate</div>
+            <div class="banner-time">2 weeks ago</div>
+          </div>
+        </div>
+        <div class="banner">
+          <img src="avatar-anna-kim.webp" alt="">
+          <div class="banner-content-wrapper">
+            <div class="banner-content"><strong>Anna Kim</strong>&nbsp&nbsp left the group <span class="chess">Chess Club</span></div>
+            <div class="banner-time">2 weeks ago</div>
+          </div>
+        </div>
+        <!--end of feed section -->
+      </section>
+      <!--end of wrapper section-->
+    </section>
+    
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Elias Lind</a>.
+  </div>
+
+  <!--jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
