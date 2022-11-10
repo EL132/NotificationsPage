@@ -187,6 +187,10 @@ strong {
 
 /* media query for size readjustment */
 @media (max-width: 1380px) {
+    main {
+        width: auto;   
+    }
+    
     .wrapper {
         width: 400px;
     }
